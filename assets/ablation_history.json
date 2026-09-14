@@ -1,0 +1,54 @@
+{
+  "config": {
+    "games": 120,
+    "simulations": 64,
+    "train_games": 90,
+    "val_games": 30,
+    "train_positions": 3945,
+    "val_positions": 1179,
+    "steps": 400,
+    "batch": 96,
+    "channels": 48,
+    "blocks": 5,
+    "optimizer": "adam",
+    "seed": 0
+  },
+  "results": {
+    "8": {
+      "input_planes": 119,
+      "train_total": 1.906,
+      "val_total": 3.633,
+      "gap": 1.727,
+      "train_value_acc": 0.94,
+      "val_value_acc": 0.59,
+      "seconds": 311
+    },
+    "4": {
+      "input_planes": 63,
+      "train_total": 1.903,
+      "val_total": 3.415,
+      "gap": 1.512,
+      "train_value_acc": 0.93,
+      "val_value_acc": 0.6,
+      "seconds": 298
+    },
+    "2": {
+      "input_planes": 35,
+      "train_total": 1.946,
+      "val_total": 2.996,
+      "gap": 1.05,
+      "train_value_acc": 0.96,
+      "val_value_acc": 0.69,
+      "seconds": 294
+    },
+    "1": {
+      "input_planes": 21,
+      "train_total": 1.962,
+      "val_total": 3.476,
+      "gap": 1.514,
+      "train_value_acc": 0.94,
+      "val_value_acc": 0.57,
+      "seconds": 325
+    }
+  }
+}

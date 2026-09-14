@@ -1,0 +1,41 @@
+# HTCondor submit file for the UW-Madison Center for High Throughput Computing.
+#
+#   condor_submit scripts/chtc/train.sub
+#
+# Self-play is embarrassingly parallel, so the natural CHTC shape is one job
+# per seed: each job trains an independent run and writes its own checkpoints
+# and metrics back to the submit node.  Set QUEUE_COUNT below to fan out.
+
+universe                = vanilla
+executable              = scripts/chtc/run_train.sh
+arguments               = $(Cluster) $(Process) $(CONFIG)
+
+# The project has no compiled dependencies, so a plain Python container is
+# enough.  Swap in a CUDA image if you enable the PyTorch backend.
+container_image         = docker://python:3.11-slim
+
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files    = neuralchess/, configs/, scripts/, pyproject.toml, requirements.txt
+transfer_output_files   = runs
+transfer_output_remaps  = "runs = runs_$(Cluster)_$(Process)"
+
+log                     = logs/train_$(Cluster)_$(Process).log
+output                  = logs/train_$(Cluster)_$(Process).out
+error                   = logs/train_$(Cluster)_$(Process).err
+
+request_cpus            = 8
+request_memory          = 8GB
+request_disk            = 8GB
+
+# Long self-play runs benefit from checkpoint-and-resume: the training loop
+# resumes from runs/<name>/checkpoints/best.npz automatically, so an evicted
+# job loses at most one iteration.
++IsResumable            = true
+max_retries             = 5
+requirements            = (OpSysMajorVer >= 8)
+
+CONFIG                  = configs/cluster.json
+QUEUE_COUNT             = 4
+
+queue $(QUEUE_COUNT)

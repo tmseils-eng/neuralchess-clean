@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# training artefacts: checkpoints and replay data are large and regenerable
+runs/*
+!runs/.gitkeep
+logs/*
+!logs/.gitkeep
+*.pgn
+*.log
+
+# checkpoints are ignored everywhere except the one shipped with the repo
+*.npz
+!assets/*.npz
+
+# editors and OS
+.idea/
+.vscode/
+.DS_Store
+.ipynb_checkpoints/

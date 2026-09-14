@@ -1,0 +1,286 @@
+{
+  "ratings": {
+    "T2-adamw": 159.5423735054606,
+    "T8-baseline": 196.04456466428584,
+    "material": 648.2664175797984,
+    "material-noisy500": 344.31420204160986,
+    "policy-only": 47.398599792793476,
+    "random": 0.0
+  },
+  "games": 12,
+  "simulations": 100,
+  "records": [
+    {
+      "player_a": "random",
+      "player_b": "material-noisy500",
+      "wins": 0,
+      "draws": 2,
+      "losses": 10
+    },
+    {
+      "player_a": "random",
+      "player_b": "material",
+      "wins": 0,
+      "draws": 3,
+      "losses": 9
+    },
+    {
+      "player_a": "random",
+      "player_b": "T8-baseline",
+      "wins": 1,
+      "draws": 1,
+      "losses": 10
+    },
+    {
+      "player_a": "random",
+      "player_b": "T2-adamw",
+      "wins": 2,
+      "draws": 4,
+      "losses": 6
+    },
+    {
+      "player_a": "random",
+      "player_b": "policy-only",
+      "wins": 2,
+      "draws": 6,
+      "losses": 4
+    },
+    {
+      "player_a": "material-noisy500",
+      "player_b": "material",
+      "wins": 0,
+      "draws": 0,
+      "losses": 12
+    },
+    {
+      "player_a": "material-noisy500",
+      "player_b": "T8-baseline",
+      "wins": 7,
+      "draws": 2,
+      "losses": 3
+    },
+    {
+      "player_a": "material-noisy500",
+      "player_b": "T2-adamw",
+      "wins": 10,
+      "draws": 2,
+      "losses": 0
+    },
+    {
+      "player_a": "material-noisy500",
+      "player_b": "policy-only",
+      "wins": 8,
+      "draws": 4,
+      "losses": 0
+    },
+    {
+      "player_a": "material",
+      "player_b": "T8-baseline",
+      "wins": 12,
+      "draws": 0,
+      "losses": 0
+    },
+    {
+      "player_a": "material",
+      "player_b": "T2-adamw",
+      "wins": 10,
+      "draws": 2,
+      "losses": 0
+    },
+    {
+      "player_a": "material",
+      "player_b": "policy-only",
+      "wins": 10,
+      "draws": 2,
+      "losses": 0
+    },
+    {
+      "player_a": "T8-baseline",
+      "player_b": "T2-adamw",
+      "wins": 2,
+      "draws": 4,
+      "losses": 6
+    },
+    {
+      "player_a": "T8-baseline",
+      "player_b": "policy-only",
+      "wins": 8,
+      "draws": 4,
+      "losses": 0
+    },
+    {
+      "player_a": "T2-adamw",
+      "player_b": "policy-only",
+      "wins": 3,
+      "draws": 9,
+      "losses": 0
+    }
+  ],
+  "summaries": [
+    {
+      "games": 12,
+      "wins": 0,
+      "draws": 2,
+      "losses": 10,
+      "score": 0.08333333333333333,
+      "elo": -416.55707406329,
+      "elo_low": -544.6911344070371,
+      "elo_high": -200.5170389643399,
+      "los": 8.834302211990774e-08
+    },
+    {
+      "games": 12,
+      "wins": 0,
+      "draws": 3,
+      "losses": 9,
+      "score": 0.125,
+      "elo": -338.0392160057027,
+      "elo_low": -544.6911344070371,
+      "elo_high": -137.2777251317531,
+      "los": 4.2841490054568165e-05
+    },
+    {
+      "games": 12,
+      "wins": 1,
+      "draws": 1,
+      "losses": 10,
+      "score": 0.125,
+      "elo": -338.0392160057027,
+      "elo_low": -544.6911344070371,
+      "elo_high": -137.2777251317531,
+      "los": 4.2841490054568165e-05
+    },
+    {
+      "games": 12,
+      "wins": 2,
+      "draws": 4,
+      "losses": 6,
+      "score": 0.3333333333333333,
+      "elo": -120.41199826559247,
+      "elo_low": -458.592675770841,
+      "elo_high": 70.47316666067113,
+      "los": 0.11033568095992335
+    },
+    {
+      "games": 12,
+      "wins": 2,
+      "draws": 6,
+      "losses": 4,
+      "score": 0.4166666666666667,
+      "elo": -58.45121427129521,
+      "elo_low": -318.650251677037,
+      "elo_high": 143.57115033557162,
+      "los": 0.2790923247113287
+    },
+    {
+      "games": 12,
+      "wins": 0,
+      "draws": 0,
+      "losses": 12,
+      "score": 0.0,
+      "elo": -544.6911344070371,
+      "elo_low": -544.6911344070371,
+      "elo_high": -294.97239605033275,
+      "los": 0.0
+    },
+    {
+      "games": 12,
+      "wins": 7,
+      "draws": 2,
+      "losses": 3,
+      "score": 0.6666666666666666,
+      "elo": 120.41199826559247,
+      "elo_low": -70.47316666067113,
+      "elo_high": 458.59267577084086,
+      "los": 0.8896643190400766
+    },
+    {
+      "games": 12,
+      "wins": 10,
+      "draws": 2,
+      "losses": 0,
+      "score": 0.9166666666666666,
+      "elo": 416.5570740632898,
+      "elo_low": 200.5170389643398,
+      "elo_high": 544.6911344070372,
+      "los": 0.9999999116569779
+    },
+    {
+      "games": 12,
+      "wins": 8,
+      "draws": 4,
+      "losses": 0,
+      "score": 0.8333333333333334,
+      "elo": 279.5880017344076,
+      "elo_low": 86.87031619531108,
+      "elo_high": 544.6911344070372,
+      "los": 0.9990271131531304
+    },
+    {
+      "games": 12,
+      "wins": 12,
+      "draws": 0,
+      "losses": 0,
+      "score": 1.0,
+      "elo": 544.6911344070372,
+      "elo_low": 294.9723960503329,
+      "elo_high": 544.6911344070372,
+      "los": 1.0
+    },
+    {
+      "games": 12,
+      "wins": 10,
+      "draws": 2,
+      "losses": 0,
+      "score": 0.9166666666666666,
+      "elo": 416.5570740632898,
+      "elo_low": 200.5170389643398,
+      "elo_high": 544.6911344070372,
+      "los": 0.9999999116569779
+    },
+    {
+      "games": 12,
+      "wins": 10,
+      "draws": 2,
+      "losses": 0,
+      "score": 0.9166666666666666,
+      "elo": 416.5570740632898,
+      "elo_low": 200.5170389643398,
+      "elo_high": 544.6911344070372,
+      "los": 0.9999999116569779
+    },
+    {
+      "games": 12,
+      "wins": 2,
+      "draws": 4,
+      "losses": 6,
+      "score": 0.3333333333333333,
+      "elo": -120.41199826559247,
+      "elo_low": -458.592675770841,
+      "elo_high": 70.47316666067113,
+      "los": 0.11033568095992335
+    },
+    {
+      "games": 12,
+      "wins": 8,
+      "draws": 4,
+      "losses": 0,
+      "score": 0.8333333333333334,
+      "elo": 279.5880017344076,
+      "elo_low": 86.87031619531108,
+      "elo_high": 544.6911344070372,
+      "los": 0.9990271131531304
+    },
+    {
+      "games": 12,
+      "wins": 3,
+      "draws": 9,
+      "losses": 0,
+      "score": 0.625,
+      "elo": 88.73949984654251,
+      "elo_low": -106.7089161378242,
+      "elo_high": 379.60950733239895,
+      "los": 0.8144533152386512
+    }
+  ]
+}

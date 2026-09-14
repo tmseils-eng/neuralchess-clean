@@ -1,0 +1,20 @@
+{
+  "record": {
+    "player_a": "T2-adamw",
+    "player_b": "T8-baseline",
+    "wins": 41,
+    "draws": 46,
+    "losses": 33
+  },
+  "summary": {
+    "games": 120,
+    "wins": 41,
+    "draws": 46,
+    "losses": 33,
+    "score": 0.5333333333333333,
+    "elo": 23.196778791074703,
+    "elo_low": -39.025608435929456,
+    "elo_high": 86.95846744362605,
+    "los": 0.7678928436144842
+  }
+}

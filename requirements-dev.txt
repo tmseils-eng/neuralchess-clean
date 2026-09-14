@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=7
+# Pinned: an unpinned linter turns every upstream release into a
+# potential red build on a commit that changed nothing.
+ruff>=0.15,<0.16

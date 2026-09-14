@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="330" viewBox="0 0 880 330"
+     font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">
+  <rect width="880" height="330" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7"
+            orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="30" font-size="15" font-weight="600" fill="#111827">The self-play loop</text>
+
+  <!-- boxes -->
+  <g stroke="#c7cdd8" fill="#f5f7fb" stroke-width="1.2">
+    <rect x="24"  y="60" width="180" height="86" rx="10"/>
+    <rect x="254" y="60" width="180" height="86" rx="10"/>
+    <rect x="484" y="60" width="180" height="86" rx="10"/>
+    <rect x="700" y="60" width="156" height="86" rx="10"/>
+  </g>
+  <g font-size="13" fill="#111827" font-weight="600">
+    <text x="44" y="86">1 · self-play</text>
+    <text x="274" y="86">2 · replay window</text>
+    <text x="504" y="86">3 · gradient steps</text>
+    <text x="720" y="86">4 · measure</text>
+  </g>
+  <g font-size="11.5" fill="#4b5563">
+    <text x="44" y="106">N workers, MCTS with</text>
+    <text x="44" y="122">root Dirichlet noise</text>
+    <text x="44" y="138">playout-cap randomised</text>
+    <text x="274" y="106">most recent 50k</text>
+    <text x="274" y="122">positions, sparse</text>
+    <text x="274" y="138">policy targets</text>
+    <text x="504" y="106">policy CE + value CE</text>
+    <text x="504" y="122">Adam, warmup-cosine</text>
+    <text x="504" y="138">illegal moves masked</text>
+    <text x="720" y="106">fixed baseline</text>
+    <text x="720" y="122">ladder, Elo with</text>
+    <text x="720" y="138">confidence intervals</text>
+  </g>
+
+  <g stroke="#6b7280" stroke-width="1.6" marker-end="url(#a)" fill="none">
+    <path d="M204 103 H250"/>
+    <path d="M434 103 H480"/>
+    <path d="M664 103 H696"/>
+    <path d="M778 146 V178 H114 V150"/>
+  </g>
+  <text x="330" y="170" font-size="11.5" fill="#6b7280">updated weights drive the next round of self-play</text>
+
+  <!-- network -->
+  <text x="24" y="222" font-size="15" font-weight="600" fill="#111827">The network</text>
+  <g stroke="#c7cdd8" stroke-width="1.2">
+    <rect x="24"  y="240" width="104" height="56" rx="8" fill="#eef2fb"/>
+    <rect x="146" y="240" width="104" height="56" rx="8" fill="#eef2fb"/>
+    <rect x="268" y="240" width="150" height="56" rx="8" fill="#e4ecff"/>
+    <rect x="436" y="240" width="150" height="56" rx="8" fill="#e4ecff"/>
+    <rect x="604" y="240" width="120" height="56" rx="8" fill="#e8f7f1"/>
+    <rect x="742" y="240" width="114" height="56" rx="8" fill="#fdf0e6"/>
+  </g>
+  <g font-size="11.5" fill="#111827" text-anchor="middle">
+    <text x="76"  y="264">position</text><text x="76"  y="280" fill="#4b5563">119 × 8 × 8</text>
+    <text x="198" y="264">3×3 conv</text><text x="198" y="280" fill="#4b5563">+ BN + ReLU</text>
+    <text x="343" y="264">N × residual block</text><text x="343" y="280" fill="#4b5563">conv–BN–conv–BN–SE</text>
+    <text x="511" y="264">policy head</text><text x="511" y="280" fill="#4b5563">73 planes → 4,672</text>
+    <text x="664" y="264">value head</text><text x="664" y="280" fill="#4b5563">W / D / L</text>
+    <text x="799" y="264">PUCT search</text><text x="799" y="280" fill="#4b5563">priors + Q</text>
+  </g>
+  <g stroke="#6b7280" stroke-width="1.6" marker-end="url(#a)" fill="none">
+    <path d="M128 268 H142"/>
+    <path d="M250 268 H264"/>
+    <path d="M418 268 H432"/>
+    <path d="M586 262 H600"/>
+    <path d="M586 276 H600"/>
+    <path d="M724 268 H738"/>
+  </g>
+</svg>

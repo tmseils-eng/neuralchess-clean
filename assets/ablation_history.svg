@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="Inter,ui-sans-serif,system-ui,sans-serif">
+<rect width="720" height="300" fill="#ffffff"/>
+<text x="56" y="22" font-size="13" font-weight="600" fill="#18181b">Loss after 400 identical steps on identical games</text>
+<text x="56" y="38" font-size="11" fill="#71717a">Only the depth of encoded history differs. 90 training games, 30 held out.</text>
+<line x1="56" y1="242.0" x2="696" y2="242.0" stroke="#e4e4e7"/>
+<text x="48" y="246.0" font-size="10" fill="#71717a" text-anchor="end">0</text>
+<line x1="56" y1="192.5" x2="696" y2="192.5" stroke="#e4e4e7"/>
+<text x="48" y="196.5" font-size="10" fill="#71717a" text-anchor="end">1</text>
+<line x1="56" y1="143.0" x2="696" y2="143.0" stroke="#e4e4e7"/>
+<text x="48" y="147.0" font-size="10" fill="#71717a" text-anchor="end">2</text>
+<line x1="56" y1="93.5" x2="696" y2="93.5" stroke="#e4e4e7"/>
+<text x="48" y="97.5" font-size="10" fill="#71717a" text-anchor="end">3</text>
+<line x1="56" y1="44.0" x2="696" y2="44.0" stroke="#e4e4e7"/>
+<text x="48" y="48.0" font-size="10" fill="#71717a" text-anchor="end">4</text>
+<rect x="88.0" y="147.7" width="38.4" height="94.3" fill="#a8b0a3" rx="2"/>
+<text x="107.2" y="141.7" font-size="10" font-weight="500" fill="#18181b" text-anchor="middle">1.91</text>
+<rect x="132.4" y="62.2" width="38.4" height="179.8" fill="#115e59" rx="2"/>
+<text x="151.6" y="56.2" font-size="10" font-weight="500" fill="#18181b" text-anchor="middle">3.63</text>
+<text x="123.2" y="266" font-size="11" font-weight="500" fill="#18181b" text-anchor="middle">T=8</text>
+<text x="123.2" y="280" font-size="10" fill="#71717a" text-anchor="middle">119 planes · gap +1.73</text>
+<rect x="248.0" y="147.8" width="38.4" height="94.2" fill="#a8b0a3" rx="2"/>
+<text x="267.2" y="141.8" font-size="10" font-weight="500" fill="#18181b" text-anchor="middle">1.90</text>
+<rect x="292.4" y="73.0" width="38.4" height="169.0" fill="#115e59" rx="2"/>
+<text x="311.6" y="67.0" font-size="10" font-weight="500" fill="#18181b" text-anchor="middle">3.42</text>
+<text x="283.2" y="266" font-size="11" font-weight="500" fill="#18181b" text-anchor="middle">T=4</text>
+<text x="283.2" y="280" font-size="10" fill="#71717a" text-anchor="middle">63 planes · gap +1.51</text>
+<rect x="408.0" y="145.7" width="38.4" height="96.3" fill="#a8b0a3" rx="2"/>
+<text x="427.2" y="139.7" font-size="10" font-weight="500" fill="#18181b" text-anchor="middle">1.95</text>
+<rect x="452.4" y="93.7" width="38.4" height="148.3" fill="#115e59" rx="2"/>
+<text x="471.6" y="87.7" font-size="10" font-weight="500" fill="#18181b" text-anchor="middle">3.00</text>
+<text x="443.2" y="266" font-size="11" font-weight="500" fill="#18181b" text-anchor="middle">T=2</text>
+<text x="443.2" y="280" font-size="10" fill="#71717a" text-anchor="middle">35 planes · gap +1.05</text>
+<rect x="568.0" y="144.9" width="38.4" height="97.1" fill="#a8b0a3" rx="2"/>
+<text x="587.2" y="138.9" font-size="10" font-weight="500" fill="#18181b" text-anchor="middle">1.96</text>
+<rect x="612.4" y="69.9" width="38.4" height="172.1" fill="#115e59" rx="2"/>
+<text x="631.6" y="63.9" font-size="10" font-weight="500" fill="#18181b" text-anchor="middle">3.48</text>
+<text x="603.2" y="266" font-size="11" font-weight="500" fill="#18181b" text-anchor="middle">T=1</text>
+<text x="603.2" y="280" font-size="10" fill="#71717a" text-anchor="middle">21 planes · gap +1.51</text>
+<rect x="488" y="12" width="9" height="9" fill="#a8b0a3" rx="2"/>
+<text x="502" y="21" font-size="11" fill="#71717a">training</text>
+<rect x="570" y="12" width="9" height="9" fill="#115e59" rx="2"/>
+<text x="584" y="21" font-size="11" fill="#71717a">held-out games</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" font-family="ui-sans-serif,system-ui,sans-serif">
+<rect width="720" height="320" fill="#ffffff"/>
+<text x="60" y="24" font-size="15" font-weight="600" fill="#1b1b1f">Agreement with the search targets</text>
+<line x1="60" y1="275.0" x2="590" y2="275.0" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="279.0" font-size="11" fill="#6b6b76" text-anchor="end">0.4</text>
+<line x1="60" y1="216.2" x2="590" y2="216.2" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="220.2" font-size="11" fill="#6b6b76" text-anchor="end">0.518</text>
+<line x1="60" y1="157.5" x2="590" y2="157.5" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="161.5" font-size="11" fill="#6b6b76" text-anchor="end">0.636</text>
+<line x1="60" y1="98.7" x2="590" y2="98.7" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="102.7" font-size="11" fill="#6b6b76" text-anchor="end">0.754</text>
+<line x1="60" y1="40.0" x2="590" y2="40.0" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="44.0" font-size="11" fill="#6b6b76" text-anchor="end">0.873</text>
+<line x1="60" y1="275" x2="590" y2="275" stroke="#b9b9c2" stroke-width="1"/>
+<polyline points="60.0,264.3 72.0,170.0 84.1,165.7 96.1,156.5 108.2,149.9 120.2,156.8 132.3,141.1 144.3,137.5 156.4,133.2 168.4,131.1 180.5,129.7 192.5,124.3 204.5,121.1 216.6,133.7 228.6,123.1 240.7,125.2 252.7,127.9 264.8,127.8 276.8,124.5 288.9,124.7 300.9,124.0 313.0,120.9 325.0,126.2 337.0,118.1 349.1,112.7 361.1,119.3 373.2,112.5 385.2,110.0 397.3,112.0 409.3,112.4 421.4,106.4 433.4,117.3 445.5,117.4 457.5,118.5 469.5,108.9 481.6,105.6 493.6,107.5 505.7,106.0 517.7,105.4 529.8,105.0 541.8,100.4 553.9,105.3 565.9,105.1 578.0,109.9 590.0,98.2" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linejoin="round"/>
+<line x1="604" y1="46" x2="624" y2="46" stroke="#2f6fdb" stroke-width="2"/>
+<text x="630" y="50" font-size="11" fill="#3a3a42">policy top-1 vs search</text>
+<polyline points="60.0,165.8 72.0,150.6 84.1,130.7 96.1,109.7 108.2,97.6 120.2,94.9 132.3,84.8 144.3,80.8 156.4,73.0 168.4,69.2 180.5,77.6 192.5,78.3 204.5,80.9 216.6,79.2 228.6,65.3 240.7,73.3 252.7,72.8 264.8,71.7 276.8,68.3 288.9,64.7 300.9,66.8 313.0,63.4 325.0,65.4 337.0,60.7 349.1,62.2 361.1,60.3 373.2,56.3 385.2,61.1 397.3,59.8 409.3,55.7 421.4,55.9 433.4,57.9 445.5,60.5 457.5,55.2 469.5,58.3 481.6,55.9 493.6,50.7 505.7,60.6 517.7,52.6 529.8,65.6 541.8,61.6 553.9,62.2 565.9,66.5 578.0,63.9 590.0,63.0" fill="none" stroke="#d1495b" stroke-width="2" stroke-linejoin="round"/>
+<line x1="604" y1="62" x2="624" y2="62" stroke="#d1495b" stroke-width="2"/>
+<text x="630" y="66" font-size="11" fill="#3a3a42">value top-1 vs outcome</text>
+<text x="325.0" y="310" font-size="11" fill="#6b6b76" text-anchor="middle">iteration</text>
+<text x="16" y="157.5" font-size="11" fill="#6b6b76" text-anchor="middle" transform="rotate(-90 16 157.5)">accuracy</text>
+</svg>

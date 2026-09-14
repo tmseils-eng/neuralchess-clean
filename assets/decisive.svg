@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" font-family="ui-sans-serif,system-ui,sans-serif">
+<rect width="720" height="320" fill="#ffffff"/>
+<text x="60" y="24" font-size="15" font-weight="600" fill="#1b1b1f">Fraction of self-play games with a decisive result</text>
+<line x1="60" y1="275.0" x2="590" y2="275.0" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="279.0" font-size="11" fill="#6b6b76" text-anchor="end">0.479</text>
+<line x1="60" y1="216.2" x2="590" y2="216.2" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="220.2" font-size="11" fill="#6b6b76" text-anchor="end">0.596</text>
+<line x1="60" y1="157.5" x2="590" y2="157.5" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="161.5" font-size="11" fill="#6b6b76" text-anchor="end">0.713</text>
+<line x1="60" y1="98.8" x2="590" y2="98.8" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="102.8" font-size="11" fill="#6b6b76" text-anchor="end">0.829</text>
+<line x1="60" y1="40.0" x2="590" y2="40.0" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="44.0" font-size="11" fill="#6b6b76" text-anchor="end">0.946</text>
+<line x1="60" y1="275" x2="590" y2="275" stroke="#b9b9c2" stroke-width="1"/>
+<polyline points="60.0,50.7 72.0,50.7 84.1,63.2 96.1,63.2 108.2,126.1 120.2,239.2 132.3,151.2 144.3,88.4 156.4,201.5 168.4,251.8 180.5,151.2 192.5,188.9 204.5,88.4 216.6,176.4 228.6,239.2 240.7,138.6 252.7,188.9 264.8,201.5 276.8,126.1 288.9,100.9 300.9,201.5 313.0,176.4 325.0,214.1 337.0,226.6 349.1,163.8 361.1,188.9 373.2,138.6 385.2,214.1 397.3,176.4 409.3,163.8 421.4,188.9 433.4,163.8 445.5,226.6 457.5,151.2 469.5,151.2 481.6,163.8 493.6,176.4 505.7,188.9 517.7,176.4 529.8,251.8 541.8,188.9 553.9,176.4 565.9,239.2 578.0,176.4 590.0,138.6" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linejoin="round"/>
+<line x1="604" y1="46" x2="624" y2="46" stroke="#2f6fdb" stroke-width="2"/>
+<text x="630" y="50" font-size="11" fill="#3a3a42">decisive self-play games</text>
+<polyline points="60.0,126.1 72.0,63.2 84.1,75.8 96.1,126.1 108.2,214.1 120.2,251.8 132.3,176.4 144.3,151.2 156.4,214.1 168.4,264.3 180.5,151.2 192.5,226.6 204.5,113.5 216.6,188.9 228.6,239.2 240.7,151.2 252.7,201.5 264.8,214.1 276.8,138.6 288.9,113.5 300.9,226.6 313.0,226.6 325.0,264.3 337.0,251.8 349.1,163.8 361.1,201.5 373.2,176.4 385.2,226.6 397.3,176.4 409.3,176.4 421.4,214.1 433.4,163.8 445.5,226.6 457.5,176.4 469.5,163.8 481.6,163.8 493.6,188.9 505.7,226.6 517.7,214.1 529.8,251.8 541.8,188.9 553.9,201.5 565.9,239.2 578.0,188.9 590.0,138.6" fill="none" stroke="#d1495b" stroke-width="2" stroke-linejoin="round"/>
+<line x1="604" y1="62" x2="624" y2="62" stroke="#d1495b" stroke-width="2"/>
+<text x="630" y="66" font-size="11" fill="#3a3a42">of which adjudicated</text>
+<text x="325.0" y="310" font-size="11" fill="#6b6b76" text-anchor="middle">iteration</text>
+<text x="16" y="157.5" font-size="11" fill="#6b6b76" text-anchor="middle" transform="rotate(-90 16 157.5)">fraction</text>
+</svg>

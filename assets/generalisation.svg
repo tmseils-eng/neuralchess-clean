@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" font-family="ui-sans-serif,system-ui,sans-serif">
+<rect width="720" height="320" fill="#ffffff"/>
+<text x="60" y="24" font-size="15" font-weight="600" fill="#1b1b1f">Training vs held-out loss</text>
+<line x1="60" y1="275.0" x2="590" y2="275.0" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="279.0" font-size="11" fill="#6b6b76" text-anchor="end">2.01</text>
+<line x1="60" y1="216.3" x2="590" y2="216.3" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="220.3" font-size="11" fill="#6b6b76" text-anchor="end">2.37</text>
+<line x1="60" y1="157.5" x2="590" y2="157.5" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="161.5" font-size="11" fill="#6b6b76" text-anchor="end">2.73</text>
+<line x1="60" y1="98.7" x2="590" y2="98.7" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="102.7" font-size="11" fill="#6b6b76" text-anchor="end">3.08</text>
+<line x1="60" y1="40.0" x2="590" y2="40.0" stroke="#e6e6ea" stroke-width="1"/>
+<text x="52" y="44.0" font-size="11" fill="#6b6b76" text-anchor="end">3.44</text>
+<line x1="60" y1="275" x2="590" y2="275" stroke="#b9b9c2" stroke-width="1"/>
+<polyline points="60.0,50.7 72.0,135.6 84.1,151.8 96.1,172.8 108.2,185.1 120.2,189.9 132.3,202.7 144.3,212.0 156.4,218.5 168.4,224.2 180.5,217.8 192.5,223.8 204.5,224.3 216.6,224.1 228.6,232.9 240.7,227.6 252.7,229.4 264.8,235.2 276.8,234.3 288.9,239.5 300.9,238.0 313.0,240.3 325.0,242.0 337.0,244.4 349.1,243.6 361.1,242.2 373.2,250.3 385.2,249.1 397.3,250.5 409.3,254.0 421.4,256.3 433.4,252.4 445.5,251.1 457.5,253.1 469.5,252.1 481.6,259.7 493.6,264.3 505.7,260.5 517.7,262.4 529.8,256.4 541.8,264.1 553.9,262.6 565.9,257.6 578.0,259.6 590.0,262.8" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linejoin="round"/>
+<line x1="604" y1="46" x2="624" y2="46" stroke="#2f6fdb" stroke-width="2"/>
+<text x="630" y="50" font-size="11" fill="#3a3a42">training loss</text>
+<polyline points="60.0,112.2 72.0,83.2 84.1,104.3 96.1,141.6 108.2,116.9 120.2,115.9 132.3,64.6 144.3,97.4 156.4,122.0 168.4,130.5 180.5,111.0 192.5,66.2 204.5,79.0 216.6,57.9 228.6,105.2 240.7,102.4 252.7,99.9 264.8,111.4 276.8,112.4 288.9,90.7 300.9,105.8 313.0,107.2 325.0,102.3 337.0,134.4 349.1,112.6 361.1,150.1 373.2,106.9 385.2,145.9 397.3,112.9 409.3,143.4 421.4,150.6 433.4,137.9 445.5,146.4 457.5,136.6 469.5,130.1 481.6,132.6 493.6,95.0 505.7,125.2 517.7,127.6 529.8,124.7 541.8,140.1 553.9,163.8 565.9,128.6 578.0,160.4 590.0,131.9" fill="none" stroke="#d1495b" stroke-width="2" stroke-linejoin="round"/>
+<line x1="604" y1="62" x2="624" y2="62" stroke="#d1495b" stroke-width="2"/>
+<text x="630" y="66" font-size="11" fill="#3a3a42">held-out loss</text>
+<text x="325.0" y="310" font-size="11" fill="#6b6b76" text-anchor="middle">iteration</text>
+<text x="16" y="157.5" font-size="11" fill="#6b6b76" text-anchor="middle" transform="rotate(-90 16 157.5)">loss</text>
+</svg>
